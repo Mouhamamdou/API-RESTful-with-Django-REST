@@ -47,7 +47,7 @@ comprehensive tool for development teams.
    Apply migrations to create the database schema with:
 
 	```bash
-  python manage.py migrate.
+   python manage.py migrate.
 
 5. Run the server
 
