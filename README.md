@@ -39,8 +39,8 @@ comprehensive tool for development teams.
 
    Install all required dependencies with pip:
 
-        ```bash 
-    pip install -r requirements.txt
+   ```bash 
+   pip install -r requirements.txt
 
 4. Migrate the Database
 
