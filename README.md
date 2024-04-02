@@ -3,7 +3,8 @@
 ## Overview
 
 The API project is a web application designed to manage projects, issues, and comments, akin to 
-a task tracking system. The application facilitates project management tasks, including user 
+a task tracking system. It leverages Django, alongside Django REST Framework for rapid development, 
+and RESTful API services. The application facilitates project management tasks, including user 
 authentication, project creation, issue tracking, and commenting functionalities, offering a
 comprehensive tool for development teams.
 
