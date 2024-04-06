@@ -43,7 +43,7 @@ class IssueSerializer(serializers.ModelSerializer):
                   'comments', 'created_time']
 
     def validate(self, data):
-        project = data.get('project')
+        project = self.instance.project
         contributor = data.get('contributor')
 
         if contributor and not project.contributors.filter(id=contributor.id).exists():
